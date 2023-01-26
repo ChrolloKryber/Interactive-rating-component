@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    color: hsl(217, 12%, 63%);
+    height: 100vh;
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    position: relative;
+}
+
+h3 {
+    font-weight: 700;
+    color: white;
+}
+
+
+.container {
+    max-width: 90%;
+    background-color: #202731;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px 20px 0;
+    position: relative;
+    top: 25%;
+}
+
+.star-img {
+    padding: 20px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+}
+
+.rating-flex {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.rating-button {
+    background-color: hsl(213, 19%, 18%);
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+}
+
+.submit-button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-weight: 700;
+}
+
+.rating-button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.button {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+
+.clicked {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.thank-you-state {
+    text-align: center;
+    padding: 10px;
+}
+
+.thank-you-image {
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0;
+}
+
+.rating-text {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.thank-you-text {
+    margin: 0 auto;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+@media (min-width: 420px) {
+
+    .container {
+        max-width: 80%;
+        width: 400px;
+    }
+}
