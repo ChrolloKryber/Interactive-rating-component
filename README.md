@@ -52,7 +52,9 @@ Users should be able to:
 
 This has been a great experience learning about more interactive web pages.
 
+### Useful resources 
 
+- [W3Schools](https://www.w3schools.com/jquery/)
 
 ## Author
 
