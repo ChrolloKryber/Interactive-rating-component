@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AmulDoodh/Interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://amuldoodh.github.io/Interactive-rating-component/)
+- [Solution URL](https://github.com/AmulDoodh/Interactive-rating-component)
+- [Live Site URL](https://amuldoodh.github.io/Interactive-rating-component/)
 
 ## My process
 
